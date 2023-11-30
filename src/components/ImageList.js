@@ -1,5 +1,15 @@
-const ImageList = () => {
+import ImageShow from "./ImageShow"
+
+const ImageList = ({ images }) => {
     return (
-        <h1>This is the ImageList!</h1>
+        <div>
+            { 
+                images.map((image) => 
+                    <ImageShow key={image.key} image={image}/>
+                )
+            }
+        </div>
     )
 }
+
+export default ImageList
