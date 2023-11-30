@@ -1,6 +1,9 @@
-const SearchBar = () => {
+const SearchBar = ({ handleSearch }) => {
     return (
-        <h1>This is the SarchBar!</h1>
+        <div>
+            <input />
+            <button onClick={handleSearch}>Click me!</button>
+        </div>
     )
 }
 
