@@ -1,8 +1,8 @@
 import SearchBar from "./components/SearchBar";
 
 const App = () => {
-    const handleSearch = () => {
-        console.log('He llamado al handleSearch');
+    const handleSearch = (term) => {
+        console.log('He llamado al handleSearch con', term);
     }
 
     return(
