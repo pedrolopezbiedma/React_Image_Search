@@ -33,7 +33,7 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Start the application
 
 ```bash
   npm run start
